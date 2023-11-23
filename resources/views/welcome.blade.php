@@ -63,9 +63,9 @@
 
 
     <div id="search-container" class="col-md-12">
-        <h3>Busque um evento</h3>
+        <h2>Busque um evento</h2>
         <form action="/" method="GET">
-            <label for="search">Buscar Eventos</label>
+            <label for="search"></label>
             <input type="text" id="search" name="search" class="form-control" placeholder="Procurar Evento">
         </form>
     </div>
@@ -73,7 +73,7 @@
         <h2>Buscando por: {{ $search }}</h2>
     @else
         <div id="events-container" class="col-md-12">
-            <h2>Proximos eventos</h2>
+            <h3>Proximos eventos</h3>
             <p>Veja os eventos dos próximos dias</p>
         </div>
     @endif

@@ -16,6 +16,7 @@
 <body>
     <header>
         <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+            <div class="collapse navbar-collapse" id="navbar">
             <a href="/" class="navbar-brand">Logo</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
@@ -43,7 +44,7 @@
                             <a class="nav-link" href="/register">Cadastrar</a>
                         </li>
                     @endguest
-
+                </div>
                 </ul>
             </div>
         </nav>

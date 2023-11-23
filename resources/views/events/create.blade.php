@@ -7,7 +7,7 @@
             <form action="/events" method="POST" enctype="multipart/form-data">
                 @csrf
                 <div class="form-group">
-                    <label for="image">Imagem do evento:</label>
+                    <label for="image">Imagem do evento</label>
                     <input type="file" id="image" name="image" class="form-control-file">
                 </div>
                 <div class="form-group">
@@ -33,7 +33,7 @@
                     <label for="title">Descrição:</label>
                     <textarea name="description" id="description"class="form-control" placeholder="descrição do evento"></textarea>
                 </div>
-                <input type="submit" class="btn btm-primary" value="Criar Evento">
+                <input type="submit" class="bn632-hover bn25 btn-criar" value="Criar Evento">
             </form>
         </div>
     </div>
