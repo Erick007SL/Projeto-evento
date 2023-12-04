@@ -77,7 +77,12 @@
           </script>
     </main>
     <footer>
-        <p>HDC Events &copy;2023</p>
+        <container class="c-footer">
+            <div class="coluna-1"> <h2>redes sociais</h2></div>
+            <div class="coluna-3"><h2>contato</h2></div>
+            <div class="coluna-2"><h2>localização</h2></div>
+            <div class="coluna-2"><h2>localização</h2></div>
+        </container>
     </footer>
 </body>
 

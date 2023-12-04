@@ -1,12 +1,10 @@
 #navbar {
     background-color: #18537a;
-    
-
 }
 .navbar-nav {
     height: 12vh;
     position: relative;
-    left: 72%;
+    left: 71%;
     top: 10%;
 }
 .nav-link {
@@ -19,6 +17,7 @@
     color: #86c1e8;
 
 }
+
 #search-container {
     text-align: center;
 
@@ -41,25 +40,55 @@
     background-color: #4096cfc5;
     color: #fff;
     width: 50vw;
-    height: 75vh;
+    height: auto;
     box-shadow: 6px 10px 45px #417aa0;
     border-radius: 20px;
 
 }
+#text-sub {
+    color: #25aae1;
+    font-size: 1.8rem;
+}
+.img-criacao {
+    border: 2px solid#fff;
+    box-shadow: 4px 6px 10px rgb(0, 0, 0);
+    margin: 10px 0 10px 0;
+    height: 25%;
+    width: 25%;
+}
 
 .btn-criar{
     position: relative;
-    left: 30%;
+    left: 32%;
  
 }
 
+.img-fluid {
+    margin-top: 2rem;
+    height: 80%;
+    border: 3px solid  white;
+    box-shadow: 4px 6px 20px rgb(0, 0, 0);
 
-
-
+}
+#info-container {
+    margin-top: 3.2rem;
+}
 footer {
     background-color: #18537a;
-    height: 8vh;
+    height: 15vh;
     color: #fff;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    
+}
+.c-footer {
+    width: 97vw;
+    display: flex;
+    justify-content: space-between;
+}
+.c-footer h2{
+    text-decoration: underline;
 }
 footer p {
     text-align: center;
