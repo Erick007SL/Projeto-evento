@@ -1,5 +1,6 @@
 .container {
     width: 100%;
+    min-height: 95vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -15,6 +16,21 @@
     background-color: #fff;
     box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.15);
     cursor: pointer;
+}
+
+.img-image {
+    margin-top: -100px;
+
+}
+
+.sub-title {
+    margin-top: -110px;
+
+}
+
+.banner-jessy {
+    padding-left: 7vw;
+    height: 90vh;
 }
 
 .img-container,
@@ -59,7 +75,7 @@
 
 .title,
 .price {
-    color: #18537a;
+    color: #fff;
     font-size: 1.5em;
     font-weight: bold;
     letter-spacing: 1px;

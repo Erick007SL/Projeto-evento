@@ -45,9 +45,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="container">
+                    <!-- <div class="container">
                         <a href="/"><button class="bn632-hover bn25"> Registrar </button></a>
-                    </div>
+                    </div> -->
 
 
                 </div>
