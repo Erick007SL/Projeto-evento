@@ -10,7 +10,7 @@
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
     <script nomodule src="https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <link rel="stylesheet" href="{{ asset('css/main.css') }}">
-    <title>@yield('title') </title>
+    <title> EB events </title> <!--@yield('title') -->
 </head>
 
 <body>
@@ -101,10 +101,9 @@
         <div class="footer-top">
             <div class="cont-footer">
                 <div class="footer-brand">
-                    <!-- <a href="#" class="logo">
-                        <img src="./assets/img/logo(4)svg.svg" width="150" height="73" loading="lazy"
-                        alt="Unigine logo">
-                        </a> -->
+                  
+                <a class="navbar-brand" href="/"><img class="logo" id="logo-footer" src="{{ asset('images/logo.png') }}"
+                        alt="Logo" srcset=""></a>
 
                     <p class="footer-text text">
                         Este é o nosso site do projeto integrador III se tudo der certo não repetiremos de ano.
@@ -152,11 +151,11 @@
                         </li>
 
                         <li>
-                            <a href="#" class="footer-link"> sei la </a>
+                            <a href="#" class="footer-link"> Política de Privacidade </a>
                         </li>
 
                         <li>
-                            <a href="#" class="footer-link"> sei la </a>
+                            <a href="#" class="footer-link"> FAQ </a>
                         </li>
 
                         <li>
@@ -167,14 +166,14 @@
 
                 </div>
 
-                <div class="footer-list">
+                <div class="footer-list" >
 
-                    <p class="title footer-list-title has-after"> Contato </p>
+                    <p id="contato" class="title footer-list-title has-after"> Contato </p>
 
                     <div class="contact-item">
                         <span class="span">Localização:</span>
 
-                        <address class="contact-link">
+                        <address>
                             Av. Dr. Flávio Henrique Lemos, 585 Portal Itamaracá,
                             Taquaritinga/SP
                         </address>

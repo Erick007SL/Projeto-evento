@@ -37,7 +37,7 @@
                     <label for="title">Preços</label>
                     <input class="form-control form-control-lg" type="text" name="itens" value="R$000,00">
                 </div>
-                <input type="submit" class="btn btn-primary justify-content-end" value="Criar Evento">
+                <input type="submit" class="btn btn-primary" id="btn-criar" value="Criar Evento">
             </form>
         </div>
     </div>

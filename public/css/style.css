@@ -25,67 +25,30 @@
     box-shadow: 2px 4px 10px gray;
 
 }
-/* #events-container {
-    text-align: center;
-    
 
-}
-#event-create-container {
-    font-size: 1.3rem;
-    background-color: #4096cfc5;
-    color: #fff;
-    width: 50vw;
-    height: auto;
-    box-shadow: 6px 10px 45px #417aa0;
-    border-radius: 20px;
-
-}
-#text-sub {
-    color: #25aae1;
-    font-size: 1.8rem;
-}
-.img-criacao {
-    border: 2px solid#fff;
-    box-shadow: 4px 6px 10px rgb(0, 0, 0);
-    margin: 10px 0 10px 0;
-    height: 25%;
-    width: 25%;
-}
-
-.btn-criar{
-    position: relative;
-    left: 32%;
- 
-}
-
-
-
-.img-fluid {
-    margin-top: 2rem;
-    height: 80%;
-    border: 3px solid  white;
-    box-shadow: 4px 6px 20px rgb(0, 0, 0);
-
-}
-#info-container {
-    margin-top: 3.2rem;
-} */
 footer {
+  margin-top: 6rem;
+  background: linear-gradient(to top, #0d5281, #ebf3fb00);
   padding-top: 15vh;
-  color: #393a3b;
+  color: #000;
+
 }
+.footer-text { 
+  margin-block: 20px 45px;
+ 
+ }
 
-  .footer-text { margin-block: 20px 45px; }
-  
-  .social-list {
-    display: flex;
-    list-style: none ;
-    gap: 10px;
+.social-list {
+  margin-left: -2rem;
+  display: flex;
+  list-style: none ;
+  gap: 10px;
 
-  }
-  .social-list a{
-    color: #86c1e8;
-  }
+}
+.social-list a{
+  color: #86c1e8;
+
+}
   
   .footer .social-link {
     width: 40px;
@@ -102,7 +65,8 @@ footer {
     transform: translateY(-2px);
   }
   .footer-list {
-    width: 20vw;
+    width: 15vw;
+  
   }
   .footer-list-title {
     color: black;
@@ -124,9 +88,19 @@ footer {
   }
   
   .footer-link {
+    color: #fff;
     padding-block: 5px;
     transition: var(--transition-1);
     list-style: none;
+  
+  }
+  .contact-link {
+    color: #fff;
+
+  }
+  .contact-link:hover {
+    color: #000;
+
   }
   .footer-link:is(:hover, :focus-visible) { color: var(--text-purple); }
   
@@ -155,7 +129,6 @@ footer {
     background-color: var(--bg-oxford-blue-alpha-80);
   }
   
-  .copyright { padding: 20px 20px; color: #fff; text-align: center; }
   
   
   
@@ -174,10 +147,18 @@ footer {
   
   .cont-footer {
     display: flex;
-    gap: 5rem;
+    justify-content: space-around;
+  
   }
   .footer-brand {
     width: 20vw;
+  
+  }
+  #logo-footer {
+    position: relative;
+    left: 25%;
+    width: 6rem;
+    height: 6rem;
   }
   
   
@@ -515,5 +496,85 @@ footer {
   
     .footer .logo img { width: 205px; }
   
+    
   }
+  
+  @media (max-width: 400px) {
+    #logo-footer {
+      display: none;
+    }
+    #event-create-container {
+      width: 85vw;
+      font-size: 1rem;
+  
+    }
+    #search {
+      width: 80vw;
+      position: relative;
+      left: -3.2rem;
+  
+    }
+    .footer-text {
+      width: 50vw;
+  
+    }
+    
+    .footer-list ul {
+      position: relative;
+      left: 30%;
+      width: 40vw;
+  
+    }
+    .footer-list p {
+      position: relative;
+      left: 25%;
+  
+    }
+  
+    .contact-item {
+      width: 30vw;
+      position: relative;
+      left: 25%;
+      text-align: center;
+    
+    }
+    .btn-criar {
+      margin-left: -5vw;
+  
+    }
+     address {
+      width: 30vw;
+    
+  
+    }
+    .footer-link {
+      color: #fff;
+      width: 15rem;
+  
+    }
+    .cont-footer {
+      position: relative;
+      right: 12vw;
+    }
+    .form-control {
+      width: 80vw;
+      position: relative;
+      right: 24%;
+    
+    } 
+    .form-group {
+      width: 80vw;
+  
+    } 
+    .form-control-lg {
+      position: relative;
+      left: 1%;
+      width: 80vw;
+   
+    }
+    .border {
+      min-height: 115vh;
 
+    }
+  
+  }
